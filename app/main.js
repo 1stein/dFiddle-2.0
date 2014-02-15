@@ -15,7 +15,8 @@
     }
 });
 
-define(['durandal/system', 'durandal/app', 'durandal/viewLocator'], function( system, app, viewLocator ) {
+define(['durandal/system', 'durandal/app', 'durandal/viewLocator', 'omniture'], 
+function( system, app, viewLocator, omniture ) {
     //>>excludeStart("build", true);
     system.debug(true);
     //>>excludeEnd("build");
