@@ -22,6 +22,9 @@
         binding: function() {
             system.log('Lifecycle : binding : hello/index');
             return { cacheViews: false }; //cancels view caching for this module, allowing the triggering of the detached callback
+        },
+        compositionComplete: function(){
+            
         }
     };
 });
